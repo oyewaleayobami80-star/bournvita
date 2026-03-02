@@ -1,0 +1,26 @@
+body{
+font-family: Arial, Helvetica, sans-serif;
+padding: 20px;
+}
+
+.table{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+border: 1px solid #161616;
+
+}
+
+.table > div{
+padding: 10px;
+border: 1px solid #111111;
+text-align: center;
+
+}
+
+.herader{
+font-weight: bold;
+background-color: #5bc0b8;
+}
+
+
+

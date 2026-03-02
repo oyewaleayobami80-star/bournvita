@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background: #ffffff;
+}
+
+/* NAVBAR */
+.navbar{
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #ffffff;
+    position: fixed; /* stays at top */
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    border-bottom: 1px solid #eee;
+    
+    
+}
+
+/* Logo */
+.logo img{
+    width: 5rem;
+}
+
+/* Nav links */
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: #580491;
+    font-weight: bold;
+    font-size: 1.1rem
+}
+
+/* Newsletter text */
+.newsletter a{
+    color: #f47c20; /* orange color like sample */
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* MAIN HERO SECTION */
+.hero{
+    
+  zoom: inherit;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

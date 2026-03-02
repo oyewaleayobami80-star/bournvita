@@ -1,0 +1,21 @@
+.navbar {
+display: flex;
+justify-content: space-between /*logo left, menu right*/;
+align-items: center;           /*center vertically*/
+padding: 20px;
+background: #eee;
+
+}
+.menu{      /* class name  */
+display: flex;
+gap: 40px;       /*space between menu items */
+list-style: none;
+
+}
+
+
+
+
+
+
+

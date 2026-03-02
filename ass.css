@@ -1,0 +1,155 @@
+body {
+background-color: gray;
+display: flex;
+justify-content: centera;
+align-items: center;
+min-height: 100vh;
+margin: 0;
+font-family: Arial,  sans-serif;
+}
+
+.firstbox {
+position: relative;
+width: 380px;
+background-color: white;
+border-radius: 30px;
+overflow: visible;
+box-shadow: 0 8px 20px color( rgb(10, 10, 10) green blue);
+
+
+}
+
+.top-section{
+
+height: 280px;
+background-color: white#d0d0d0;
+border-radius: 30px 30px 0 0;
+
+} 
+
+.profile-picture {
+position: absolute;
+top: 200px;
+left: 50px;
+transform: translateX(-50%);
+width: 140px;
+height: 140px;
+border-radius:  50px;
+border: 6px solid white;
+background-color: gray#888;
+overflow: hidden;
+display: flex;
+align-items: center;
+justify-content: center;
+color: white;
+font-size: 12px;
+
+}
+
+.profile-picture img {
+width: 100px;
+height: 100px;
+object-fit: cover;
+
+}
+
+
+
+
+
+
+
+
+
+
+.bottom-section{ 
+padding-top: 90px;
+padding-bottom: 35px;
+padding-left: 40px;
+text-align: center;
+
+}
+
+
+.name{
+font-size: 32px;
+font-weight: bold;
+margin: 0 0 8px 0;
+color: black;
+
+}
+
+.tittle {
+font-size: 18px;
+color: gray;
+margin: 0 0 20px 0;
+font-weight: normal;
+
+
+}
+
+.hr {
+
+width: 200px;
+
+}
+
+.product {
+font-size: 13px;
+color: gray;
+line-height: 1.7;
+margin:  0 0 30px 0;
+
+}
+
+.icon4 {
+display: flex;
+justify-content: center;
+gap: 25px;
+
+}
+
+
+.icon {
+width: 30px;
+height: 30px;
+background-color: gray;
+border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

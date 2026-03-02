@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 150px auto 150px; /* Left - Center - Right */
+            grid-template-rows: 80px auto 80px;      /* Top - Middle - Bottom */
+            height: 100vh;
+        }
+
+        .top {
+            background: red;
+            grid-column: 1 / 4;
+        }
+
+        .bottom {
+            background: red;
+            grid-column: 1 / 4;
+        }
+
+        .left {
+            background: blue;
+        }
+
+        .right {
+            background: blue;
+        }
+
+        .center {
+            background: yellow;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="top"></div>
+        <div class="left"></div>
+        <div class="center"></div>
+        <div class="right"></div>
+        <div class="bottom"></div>
+    </div>
+
+</body>
+</html>
+</body>
+</html>

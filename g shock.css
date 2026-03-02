@@ -1,0 +1,113 @@
+
+.body{
+width: 50pc;
+height: 50pc;
+
+}
+
+
+
+
+width: 20px;
+height: 40px;
+background-color: blueviolet;
+padding: 20px;
+margin:  10px;
+border-radius: 10px;
+border: 5px solid green;
+}
+
+.card1{
+width: 30px;
+height: 30px;
+background-color: red;
+padding: 30px;
+margin: 10px;
+border-radius: 25px;
+border: 5px double palevioletred;
+}
+
+.card2{
+width: 45px;
+height: 45px;
+background-color: green;
+padding: 45px;
+margin: 45px;
+border-radius: 75px;
+}
+
+.card3{
+width: 54vh;
+height: 45vh;
+background-color: greenyellow;
+margin: 15px;
+border-radius: 45vh;
+background: url(./WhatsApp\ Image\ 2026-01-05\ at\ 08.39.52.jpeg);
+background-size: cover;
+background-position: center;
+}
+
+
+
+.card4{
+width: 12rem;
+height: 15rem;
+background-color: gray;
+margin: 1opx;
+border-radius: 34rem;
+}
+
+.card5{
+width: 35vw;
+height: 42vw;
+background-color: rgb(233, 19, 90);
+border-radius: 40vw;
+padding: 12pxs;
+box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.card6{
+width: 12vb;
+height: 45vb;
+background-color: blue;
+border-radius: 5px;
+ 
+}
+.card7{
+width: 45vb;
+height: 12vb;
+background-color: greenyellow;
+border-radius: 20px;
+padding: 20px;
+border-width: 5px;
+border-style: dashed;
+border-color: blue;
+}
+
+
+
+.card8{
+height: 50vh;
+width: 25vh;
+
+
+}
+
+
+
+
+}
+
+
+
+
+
+
+}
+
+
+
+
+
+
+

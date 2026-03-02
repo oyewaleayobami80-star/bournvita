@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+  --verdantText : "Dancing Script", cursive;
+  --roboto: "Roboto", sans-serif;
+  --nunito:  "Nunito", sans-serif;
+  --inter: "Inter", sans-serif;
+  --bgColor: #F5EFE6;
+  --greenText:#5A7554;
+  --whiteText: #FFFFFF;
+ 
+}
+
+body {
+    min-height: 144vh;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: var(--bgColor);
+}
+
+header {
+    height: 8.8vh;
+    width: 100%;
+    position: fixed;
+    top: 1px;
+    padding: 20px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    gap: 4px;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+}
+
+.logo h1 {
+    font-family:var(--verdantText);
+   font-weight: 700;
+    font-style: Bold;
+   font-size: 2.5rem;
+   color: var(--greenText);
+    line-height: 100%;
+  letter-spacing: 0%;
+
+}
+
+nav ul {
+     display: flex;
+     gap: 3rem;
+     list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--greenText);
+    font-family: var(--inter);
+    font-family: Inter;
+    font-weight: 500;
+     font-style: Medium;
+    font-size: 1.25rem;
+     line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+header button {
+    height: 5vh;
+    width: 10vw;
+    border: none;
+    background-color:var(--greenText) ;
+    color: var(--whiteText);
+    border-radius: 20px;
+    font-family: var(--inter);
+    font-size:1rem ;
+}
+
+.main{
+min-height: 100vh;
+width: 100;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,83 @@
+.ring{
+width: 220px;
+height: 220px;
+border-radius: 50%;
+background: rgb(25, 55, 145);
+border: 10px solid gold;        /*   OUTER GOLD RING */
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.icon{
+width: 80px;              /* size of the image*/
+height: 80px;
+border-radius: 50% ;      /*  makes it round */
+object-fit: cover;          /* keeps image neat*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.center {
+width: 140px;
+height: 140px;
+background: white;
+border-radius: 50%;
+border: 5px solid gold;           /* inner thing gold ring*/
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.span{
+font-size: 40px;
+color: rgb(22, 45, 112);
+font-weight: bold;
+
+}
+.span  h2{
+    font-family: Arial, Helvetica, sans-serif;
+font-size: larger;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
