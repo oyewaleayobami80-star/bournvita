@@ -61,14 +61,109 @@ body{
 }
 
 
+#hero {
+color: #2e023a;
+font-size: 1.8rem;
+font-family:Arial, Helvetica, sans-serif ;
+font-weight: 700;
+position: absolute;
+bottom: 1rem;
+left: 75rem;
+
+}
+
+
+#hero p {
+font-size:1.8rem;
+font-weight:700 ;
+position: absolute;
+bottom: 10rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Background color just like screenshot */
+body {
+    background: linear-gradient(to bottom, #e3c5dd, #f5e7d7);
+}
+
+/* Center content */
+.hero {
+    text-align: center;
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.hero h2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #222;
+    line-height: 1.5;
+}
+
+.sub-text {
+    margin-top: 15px;
+    font-size: 16px;
+    color: #444;
+}
+
+/* Vitamin section layout */
+.vitamin-section {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.vit-box {
+    width: 28%;
+    text-align: center;
+}
+
+.vit-box h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #5a3b9c;
+}
+
+.vit-box p {
+    font-size: 14px;
+    color: #444;
+    margin-top: 10px;
+}
+
+.product-img {
+    width: 220px;
+}
 
 
 
 
+.hero-3{
+height: 24rem;
+width: 10px;
+display: flex;
+gap: 3rem;
+
+}
 
 
+.image-container {
+position: relative;
+width: ;
+}
 
 
+.main-img {
+width: 100%;
+display: block;
+}
 
 
 
